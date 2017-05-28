@@ -101,12 +101,12 @@
         </nav>
                 
          @yield('content')
-
+     </div>
             <script src="{{ asset('js/jquery.js') }}"></script>
             <script src="{{ asset('js/bootstrap.js') }}"></script>
             <script src="{{ asset('js/jquery.blockUI.js') }}"></script>
             <script src="{{ asset('js/angular.min.js') }}"></script>
-            <script src="{{url('js/jquery.dataTables.min.js')}}"></script>\
+            <script src="{{url('js/jquery.dataTables.min.js')}}"></script>
             <script src="{{url('js/jquery.bootstrap-touchspin.js')}}"></script>
 
             <!-- Morris Charts JavaScript -->
